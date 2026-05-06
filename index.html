@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corsaro Classic Engraving Inc. | Monument Sales & Service</title>
+    <meta name="description" content="Serving the Niagara Region for over 40 Years. Compassionate and professional monument restoration, conservation, and sales.">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <div class="logo-text" style="font-size: 1.5rem; font-weight: bold; color: var(--color-white); letter-spacing: 2px;">CORSARO</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div><div></div><div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#services">Services</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger-close" onclick="toggleMenu()" style="display:none;">X</button>
+    </header>
+
+    <section id="home" class="hero-section py-8">
+        <h1>Corsaro Classic Engraving Inc.</h1>
+        <div class="text-wrapper">
+            <p class="fs-xl mb-5" style="max-width: 800px; margin-left: auto; margin-right: auto;">Classic Monuments, Sales & Service<br>Serving the Niagara Region for over 40 Years.</p>
+            <a href="#contact" class="cta-button">Request an Appointment</a>
+        </div>
+    </section>
+
+	<section id="about" class="info-section py-8">
+        <div class="text-wrapper about-container">
+            <div class="about-text text-left">
+                <h2 class="mb-5">Our Story</h2>
+                <p class="mb-4 fs-lg">Dan and Candice Corsaro are local owners and operators. Certified in monument restoration and conservation, and as proud members of the Ontario Monument Builders Association, we bring compassion and professionalism to every project - honoring and commemorating loved ones with care.</p>
+                <p class="mb-5 fs-lg">Corsaro Classic Engraving is committed to quality craftsmanship, using durable granite and other lasting materials built to stand the test of time. We proudly support Canadian sourced granite.</p>
+            </div>
+            
+            <div class="about-images">
+                <div class="portrait-wrapper">
+                    <img src="./images/dan-portrait.jpg" alt="Dan Corsaro" class="portrait-img">
+                    <p class="portrait-caption fs-sm text-center mt-2">Dan Corsaro</p>
+                </div>
+                <div class="portrait-wrapper">
+                    <img src="./images/candice-portrait.jpg" alt="Candice Corsaro" class="portrait-img">
+                    <p class="portrait-caption fs-sm text-center mt-2">Candice Corsaro</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="services" class="support-section py-8">
+        <div class="text-wrapper text-center">
+            <h2 class="text-white mb-5">What We Offer</h2>
+            <p class="text-white text-center fs-xl mb-5">We provide a wide range of custom monument designs, lettering, and on-site restoration services.</p>
+        </div>
+        <div class="text-wrapper">
+            <div class="steward-list">
+                <div class="steward-item">
+                    <h4>Cemetery Memorials</h4>
+                    <p>Custom monuments, markers, granite benches, and plaques in granite, bronze, and corian.</p>
+                </div>
+                <div class="steward-item">
+                    <h4>Accessories</h4>
+                    <p>Granite and metal vases, statues, memorial lamps, and UV protected ceramic photos.</p>
+                </div>
+                <div class="steward-item">
+                    <h4>Specialty Stones</h4>
+                    <p>Garden and pet memorial rocks, address stones, and custom boulders.</p>
+                </div>
+                <div class="steward-item">
+                    <h4>On-Site Services</h4>
+                    <p>Monument design, on-site lettering/inscriptions, restoration, and cleaning. <br><br><small style="color:#bbb;"><i>*Note: We do not sandblast on shaling (peeling/crumbling) rocks.</i></small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<section id="gallery" class="info-section py-8">
+        <div class="text-wrapper">
+            <h2 class="mb-5">Our Work</h2>
+            <p class="fs-lg mb-5" style="max-width: 800px; margin: 0 auto;">A look at some of our custom cemetery memorials, benches, and specialty stones.</p>
+            
+            <div class="gallery-grid">
+                <img src="./images/monument-1.jpg" alt="Custom Granite Monument" class="gallery-img">
+                <img src="./images/monument-2.jpg" alt="Custom Granite Monument" class="gallery-img">
+                <img src="./images/heart-monument.jpg" alt="Heart Shaped Monument" class="gallery-img">
+                <img src="./images/bench.jpg" alt="Granite Memorial Bench" class="gallery-img">
+                <img src="./images/memorial-stone.jpg" alt="Custom Memorial Stone" class="gallery-img">
+                <img src="./images/police-memorial.jpg" alt="Police Association Remembrance Garden Stone" class="gallery-img">
+                <img src="./images/vases.jpg" alt="Granite Memorial Vases" class="gallery-img">
+                <img src="./images/ceramic-photo.jpg" alt="UV Protected Ceramic Photo" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="info-section py-8 bg-light">
+        <div class="text-wrapper" style="max-width: 900px;">
+            <h2 class="mb-5">What Families Say</h2>
+            <div style="display: flex; flex-direction: column; gap: 3rem; text-align: left;">
+                <blockquote style="border-left: 4px solid var(--color-secondary); padding-left: 1.5rem; margin: 0;">
+                    <p class="fs-lg" style="font-style: italic; color: #555;">"I couldn’t be happier with the monument Dan and Candice Corsaro made for my father. Every detail turned out beautifully, and the quality is excellent. The whole process was handled with care and respect, and it really meant a lot during a difficult time. I’m truly grateful for the work they did."</p>
+                    <footer style="margin-top: 1rem; font-weight: bold;">- Margarita S.</footer>
+                </blockquote>
+                <blockquote style="border-left: 4px solid var(--color-secondary); padding-left: 1.5rem; margin: 0;">
+                    <p class="fs-lg" style="font-style: italic; color: #555;">"Dan is an angel. The patience and compassion he offered my father when picking/designing a headstone for my mother is totally above and beyond... Plus the stone is exquisite. Thank you."</p>
+                </blockquote>
+                <blockquote style="border-left: 4px solid var(--color-secondary); padding-left: 1.5rem; margin: 0;">
+                    <p class="fs-lg" style="font-style: italic; color: #555;">"He's the best in the business! Kind, knowledgeable and gets the job done for a great price!"</p>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section py-8">
+        <h2 class="mb-5">Contact Us</h2>
+        <div class="text-wrapper text-center mb-5" style="max-width: 800px;">
+            <p class="fs-lg">Please call or email for an appointment during business hours as we are mainly working in the cemetery during that time. Saturday and evening appointments are available to accommodate your busy schedule.</p>
+        </div>
+        <form class="contact-form" action="mailto:ccenia@bellnet.ca" method="post" enctype="text/plain">
+            <input type="text" name="Name" id="contact_name" placeholder="Your Name" required>
+            <input type="email" name="Email" id="contact_email" placeholder="Email Address" required>
+            <textarea name="Message" id="contact_message" placeholder="How can we help you?" required rows="6"></textarea>
+            <button type="submit" class="cta-button" style="width: 100%; max-width: none; margin-top: 1rem;">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer py-6">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Corsaro Classic Monuments</h3>
+                <ul class="mb-2">
+                    <li><i class="fa-solid fa-location-dot" style="margin-right: 8px;"></i> 6193 Franklin Ave</li>
+                    <li><span style="margin-left: 24px;">Niagara Falls, ON L2G 4Z4</span></li>
+                    <li><span style="margin-left: 24px;">Canada</span></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li class="mb-2"><i class="fa-solid fa-phone" style="margin-right: 8px;"></i> <a href="tel:9053566421">905-356-6421</a></li>
+                    <li class="mb-2"><i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> <a href="mailto:ccenia@bellnet.ca">ccenia@bellnet.ca</a></li>
+                    <li class="mb-2"><i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> <a href="mailto:dancorsaro1@gmail.com">dancorsaro1@gmail.com</a></li>
+                    <li class="mb-2" style="margin-top: 1rem;"><i class="fa-brands fa-square-facebook" style="margin-right: 8px;"></i> <a href="https://www.facebook.com/corsaro.classic.engraving/" target="_blank">Connect on Facebook</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Business Hours</h3>
+                <ul class="mb-2">
+                    <li>By Appointment Only</li>
+                    <li style="margin-top: 0.5rem; color: #bbb;">We are often working on-site in the cemetery during normal business hours. Saturday and evening appointments are readily available.</li>
+                </ul>
+            </div>
+        </div>
+        <p class="fs-sm mt-5 pt-4" style="border-top: 1px solid rgba(255,255,255,0.1);">&copy; 2026 Corsaro Classic Engraving Inc. – All Rights Reserved</p>
+    </footer>
+
+    <script src="./site.js"></script>
+</body>
+</html>
